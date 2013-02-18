@@ -105,7 +105,7 @@ void print_state(state *this){
 	}
 }
 
-state *states[100];
+state *states[200];
 int n_states = 1;
 
 state * advance_state(state *previous, int element){
